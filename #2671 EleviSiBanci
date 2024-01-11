@@ -1,0 +1,12 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int long long n,m,e,x,b;
+    cin>>n>>m>>e>>b;
+    x=(m*b+e)/(m-n);
+    cout<<x*m-b*m<<"\n"<<x;
+    return 0;
+}
